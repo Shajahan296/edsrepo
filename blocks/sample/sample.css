@@ -1,0 +1,23 @@
+.block.sample {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.block.sample .sample-heading {
+  color: #0055cc;
+  margin-bottom: 1rem;
+}
+
+.block.sample .sample-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0055cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.block.sample .sample-button:hover {
+  background: #003f99;
+}
