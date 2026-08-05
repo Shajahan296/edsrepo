@@ -1,1 +1,30 @@
 
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<button onclick="shajahan()">click here</button>
+<script>
+
+function shajahan(){
+
+ const a= document.createElement('div');
+ a.setAttribute("class","man");
+ a.innerHTML = "This is shajahan";
+ document.body.appendChild(a);
+ 
+ function shajahan1() {
+    const oldDiv = document.getElementById("msg");
+
+    if (oldDiv) {
+        oldDiv.remove(); // Remove it
+        return;
+    }
+
+    const a = document.createElement("div");
+    a.id = "msg";
+    a.textContent = "This is shajahan";
+
+    document.getElementById("btn").after(a);
+}
+
+}
+</script>
